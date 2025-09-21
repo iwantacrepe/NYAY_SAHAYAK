@@ -45,39 +45,46 @@ Tech Stack
 • dotenv for environment variables
 • (Optional) Vector DB/Index (FAISS, Chroma, or managed)
 
-Quick Start (Local)
--------------------
-1) Prerequisites
-   - Python 3.11
-   - (Optional) Tesseract installed if using local OCR (pytesseract)
-   - Google Cloud project with Vertex AI enabled (if calling Vertex)
+## ⚡ Quick Start (Local)
 
-2) Clone
-   git clone https://github.com/iwantacrepe/NYAY_SAHAYAK.git
-   cd nyay-sahayak
+### 1) Prerequisites  
+- Python 3.11  
+- (Optional) Tesseract installed if using local OCR (pytesseract)  
+- Google Cloud project with Vertex AI enabled (if calling Vertex)  
+
+### 2) Clone  
+```bash
+git clone https://github.com/iwantacrepe/NYAY_SAHAYAK.git
+cd nyay-sahayak
+```
 
 3) Create virtual environment
+```bash
    # Using venv
    python -m venv .venv
    . .venv/bin/activate        # macOS/Linux
    .venv\Scripts\activate    # Windows
+```
 
-4) Install dependencies
-   pip install -r requirements.txt
-
-5) Configure environment (local .env file)
+5) Install dependencies
+```bash
+    pip install -r requirements.txt
+```
+7) Configure environment (local .env file)
    Create a file named .env in the project root with:
-     GOOGLE_PROJECT_ID=your-project-id
+```bash
+    GOOGLE_PROJECT_ID=your-project-id
      GOOGLE_REGION=your-region
      GOOGLE_VERTEX_MODEL=text-bison (or other model name)
      GOOGLE_API_KEY=your-vertex-or-genai-key
      # If using service account json:
      GOOGLE_APPLICATION_CREDENTIALS=/absolute/path/to/service_account.json
-
-6) Run
+```
+9) Run
+```bash
    streamlit run main.py
    (Then open http://localhost:8501 in your browser.)
-
+```
 Sample requirements.txt
 -----------------------
 streamlit
