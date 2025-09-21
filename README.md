@@ -87,6 +87,7 @@ cd nyay-sahayak
 ```
 Sample requirements.txt
 -----------------------
+```bash
 streamlit
 python-dotenv
 PyPDF2
@@ -100,7 +101,7 @@ google-cloud-aiplatform
 faiss-cpu
 # or
 chromadb
-
+```
 Environment & Secrets
 ---------------------
 • Local development:
