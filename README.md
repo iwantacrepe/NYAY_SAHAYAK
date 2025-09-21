@@ -130,18 +130,18 @@ Deploying on Streamlit Cloud
 Usage Flow
 ----------
 1) Open the app (local or deployed)
-2) Upload a PDF or scanned image
-3) App runs OCR (if needed) and extracts text
-4) Orchestrator routes tasks to agents (as a single logical unit)
-5) Vertex AI powers summarization, explanation, and retrieval
-6) Review the unified dashboard
-7) Export as PDF and JSON if needed
+2) Upload a PDF or scanned image<br>
+3) App runs OCR (if needed) and extracts text<br>
+4) Orchestrator routes tasks to agents (as a single logical unit)<br>
+5) Vertex AI powers summarization, explanation, and retrieval<br>
+6) Review the unified dashboard<br>
+7) Export as PDF and JSON if needed<br>
 
 Privacy & Security
 ------------------
-• API keys and service accounts are stored in environment variables or Streamlit secrets
-• Uploaded files are processed to generate outputs; do not retain beyond session unless explicitly saved
-• Review your cloud storage and logging policies to meet compliance requirements
+• API keys and service accounts are stored in environment variables or Streamlit secrets<br>
+• Uploaded files are processed to generate outputs; do not retain beyond session unless explicitly saved<br>
+• Review your cloud storage and logging policies to meet compliance requirements<br>
 
 Notes
 -----
