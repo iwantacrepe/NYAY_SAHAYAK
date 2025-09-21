@@ -15,24 +15,24 @@ using a standardized pattern (MCP-style interfaces for tool/connector access).
 
 Key Features
 ------------
-• Upload PDFs or scanned images of legal documents
-• OCR & preprocessing for scanned files
-• Agentic processing (as one unit under an orchestrator)
-• Plain-language summaries of clauses/sections
-• References to statutes, acts, and relevant precedents
-• Unified dashboard for overview, explanations, citations, and actions
-• Export full analysis as PDF and JSON
-• Configurable via environment variables (no keys in code)
+• Upload PDFs or scanned images of legal documents\n
+• OCR & preprocessing for scanned files\n
+• Agentic processing (as one unit under an orchestrator)\n
+• Plain-language summaries of clauses/sections\n
+• References to statutes, acts, and relevant precedents\n
+• Unified dashboard for overview, explanations, citations, and actions\n
+• Export full analysis as PDF and JSON\n
+• Configurable via environment variables (no keys in code)\n
 
 High-Level Architecture
 -----------------------
 • Frontend: Streamlit app (file upload, language selection, interactive dashboard)
-• Orchestrator (Python): Routes tasks, shares context, coordinates agents
-• Agents (single logical block): triage, demystify, research, strategy (internals hidden)
-• Google Vertex AI: LLMs and embeddings for generation and retrieval
-• Optional Vector Index: for improved retrieval (local/managed)
-• Storage: Cloud or local storage for files/chunks and generated artifacts
-• MCP Protocol: standard pattern for tool/connector boundaries
+• Orchestrator (Python): Routes tasks, shares context, coordinates agents\n
+• Agents (single logical block): triage, demystify, research, strategy (internals hidden)\n
+• Google Vertex AI: LLMs and embeddings for generation and retrieval\n
+• Optional Vector Index: for improved retrieval (local/managed)\n
+• Storage: Cloud or local storage for files/chunks and generated artifacts\n
+• MCP Protocol: standard pattern for tool/connector boundaries\n
 • Output: Unified dashboard + export pack (PDF + JSON)
 
 Tech Stack
