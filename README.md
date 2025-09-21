@@ -111,7 +111,7 @@ Environment & Secrets
 • Streamlit Cloud deployment:
   - Place requirements.txt at the project root
   - Set secrets via Streamlit Cloud -> App -> Settings -> Secrets
-    Example keys:
+    Example keys:<br>
       GOOGLE_PROJECT_ID<br>
       GOOGLE_REGION<br>
       GOOGLE_VERTEX_MODEL<br>
