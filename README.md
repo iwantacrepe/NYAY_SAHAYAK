@@ -112,11 +112,11 @@ Environment & Secrets
   - Place requirements.txt at the project root
   - Set secrets via Streamlit Cloud -> App -> Settings -> Secrets
     Example keys:
-      GOOGLE_PROJECT_ID
-      GOOGLE_REGION
-      GOOGLE_VERTEX_MODEL
-      GOOGLE_API_KEY
-      GOOGLE_APPLICATION_CREDENTIALS (if using a service account via secrets)
+      GOOGLE_PROJECT_ID<br>
+      GOOGLE_REGION<br>
+      GOOGLE_VERTEX_MODEL<br>
+      GOOGLE_API_KEY<br>
+      GOOGLE_APPLICATION_CREDENTIALS <br>
   - Avoid hardcoding credentials in code or committing secrets to git
 
 Deploying on Streamlit Cloud
