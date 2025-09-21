@@ -142,18 +142,6 @@ Privacy & Security
 • Uploaded files are processed to generate outputs; do not retain beyond session unless explicitly saved
 • Review your cloud storage and logging policies to meet compliance requirements
 
-Roadmap
--------
-• Real-time Q&A over the uploaded case
-• More Indian languages (Marathi, Tamil, etc.)
-• Direct integration with Supreme Court/High Court endpoints
-• RAG improvements with a curated legal corpus
-• Optional deployment to Cloud Run or Kubernetes for scale
-
-License
--------
-MIT License (see LICENSE file if included).
-
 Notes
 -----
 • If Streamlit shows 'No module named streamlit', ensure requirements.txt is present at the
