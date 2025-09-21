@@ -38,12 +38,12 @@ High-Level Architecture
 Tech Stack
 ----------
 • Python 3.11
-• Streamlit
-• Google Vertex AI (LLMs, embeddings)
-• PyPDF2, python-docx, Pillow (PIL)
-• OCR: pytesseract (local) or Vertex OCR (cloud)
-• dotenv for environment variables
-• (Optional) Vector DB/Index (FAISS, Chroma, or managed)
+• Streamlit<br>
+• Google Vertex AI (LLMs, embeddings)<br>
+• PyPDF2, python-docx, Pillow (PIL)<br>
+• OCR: pytesseract (local) or Vertex OCR (cloud)<br>
+• dotenv for environment variables<br>
+• (Optional) Vector DB/Index (FAISS, Chroma, or managed)<br>
 
 ## ⚡ Quick Start (Local)
 
