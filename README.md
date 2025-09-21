@@ -16,24 +16,24 @@ using a standardized pattern (MCP-style interfaces for tool/connector access).
 Key Features
 ------------
 • Upload PDFs or scanned images of legal documents
-• OCR & preprocessing for scanned files
-• Agentic processing (as one unit under an orchestrator)
-• Plain-language summaries of clauses/sections
-• References to statutes, acts, and relevant precedents
-• Unified dashboard for overview, explanations, citations, and actions
-• Export full analysis as PDF and JSON
-• Configurable via environment variables (no keys in code)
+• OCR & preprocessing for scanned files<br>
+• Agentic processing (as one unit under an orchestrator)<br>
+• Plain-language summaries of clauses/sections<br>
+• References to statutes, acts, and relevant precedents<br>
+• Unified dashboard for overview, explanations, citations, and actions<br>
+• Export full analysis as PDF and JSON<br>
+• Configurable via environment variables (no keys in code)<br>
 
 High-Level Architecture
 -----------------------
 • Frontend: Streamlit app (file upload, language selection, interactive dashboard)
-• Orchestrator (Python): Routes tasks, shares context, coordinates agents
-• Agents (single logical block): triage, demystify, research, strategy (internals hidden)
-• Google Vertex AI: LLMs and embeddings for generation and retrieval
-• Optional Vector Index: for improved retrieval (local/managed)
-• Storage: Cloud or local storage for files/chunks and generated artifacts
-• MCP Protocol: standard pattern for tool/connector boundaries
-• Output: Unified dashboard + export pack (PDF + JSON)
+• Orchestrator (Python): Routes tasks, shares context, coordinates agents<br>
+• Agents (single logical block): triage, demystify, research, strategy (internals hidden)<br>
+• Google Vertex AI: LLMs and embeddings for generation and retrieval<br>
+• Optional Vector Index: for improved retrieval (local/managed)<br>
+• Storage: Cloud or local storage for files/chunks and generated artifacts<br>
+• MCP Protocol: standard pattern for tool/connector boundaries<br>
+• Output: Unified dashboard + export pack (PDF + JSON)<br>
 
 Tech Stack
 ----------
@@ -53,7 +53,7 @@ Quick Start (Local)
    - Google Cloud project with Vertex AI enabled (if calling Vertex)
 
 2) Clone
-   git clone https://github.com/<your-username>/nyay-sahayak.git
+   git clone https://github.com/iwantacrepe/NYAY_SAHAYAK.git
    cd nyay-sahayak
 
 3) Create virtual environment
